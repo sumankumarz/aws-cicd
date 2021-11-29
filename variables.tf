@@ -17,3 +17,8 @@ variable "github_repo" {
   description = "GitHub repo name"
   type        = string
 }
+
+variable "github_oauth_token" {
+  description = "GitHub oauth token (pat works as wellß)"
+  type        = string
+}

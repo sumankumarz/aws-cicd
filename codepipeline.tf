@@ -23,7 +23,7 @@ resource "aws_codepipeline" "codepipeline" {
         Repo                 = var.github_repo
         Branch               = "master"
         PollForSourceChanges = "true"
-        OAuthToken           = "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"
+        OAuthToken           = var.github_oauth_token
       }
     }
   }
